@@ -8,6 +8,8 @@
 {
     display: flex;
     gap: 232.5px;
+    padding: 21.84px 0;
+    margin: 0 165px;
 }
 .list ul
 {
@@ -20,4 +22,21 @@
     display: flex;
     gap: 24px;
     list-style-type: none;
+}
+.collection_section
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    padding:0 40px;
+    margin: 0 165px;
+}
+.collection
+{
+    width: calc((100%- 90px)/4);
+}
+img
+{
+    width: 100%;
 }

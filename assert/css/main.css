@@ -29,6 +29,9 @@
 .list ul a
 {
     text-decoration: none;
+    color: #3A3845;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
 }
 .icons ul
 {
@@ -43,6 +46,10 @@
     padding-bottom: 40px;
     text-transform: uppercase;
     text-align: center;
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: "Inter", sans-serif;
+    color: #3A3845;
 }
 .collection
 {

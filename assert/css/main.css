@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html
+{
+    --primaryColor : #3A3845;
+}
 .header
 {
     padding: 21.84px 0;
@@ -29,7 +33,7 @@
 .list ul a
 {
     text-decoration: none;
-    color: #3A3845;
+    color: var(--primaryColor);
     font-size: 14px;
     font-family: "Inter", sans-serif;
 }
@@ -49,7 +53,7 @@
     font-size: 18px;
     font-weight: 600px;
     font-family: "Inter", sans-serif;
-    color: #3A3845;
+    color: var(--primaryColor);
 }
 .collection
 {

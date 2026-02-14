@@ -47,9 +47,21 @@ html
     gap: 24px;
     list-style-type: none;
 }
-
-/*Tablet*/
-@media screen and (min-width: 744px) and (max-width: 834px){
+@media screen and (min-width: 402px) and (max-width: 834px){
+    .icons
+    {
+        display: none;
+    }
+    .list
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: flex;
+    }
+}
+@media screen and (min-width: 390px) and (max-width: 401px){
     .icons
     {
         display: none;
@@ -83,10 +95,20 @@ img
 {
     width: 100%;
 }
-/*Tablet*/
-@media screen and (min-width: 744px) and (max-width: 834px) {
+@media screen and (min-width: 402px) and (max-width: 834px) {
     .collection
     {
         width: calc( (100% - 30px) / 2);
+    }
+}
+@media screen and (min-width: 390px) and (max-width: 401px) {
+    .collection
+    {
+        width: calc( (100% - 30px) / 1);
+    }
+    .collection_section
+    {
+        font-size: 12px;
+        font-weight: 600px;
     }
 }

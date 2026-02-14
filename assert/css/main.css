@@ -49,134 +49,7 @@ html
 }
 
 /*Tablet*/
-@media screen and (min-width: 744px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1440px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 834px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1280px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-/*Desktop*/
-@media screen and (min-width: 1280px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1512px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1728px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1440px) {
-    .icons
-    {
-        display: none;
-    }
-    .list
-    {
-        display: none;
-    }
-    .menu
-    {
-        display: flex;
-    }
-}
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 744px) and (max-width: 834px){
     .icons
     {
         display: none;
@@ -209,4 +82,11 @@ html
 img
 {
     width: 100%;
+}
+/*Tablet*/
+@media screen and (min-width: 744px) and (max-width: 834px) {
+    .collection
+    {
+        width: calc( (100% - 30px) / 2);
+    }
 }

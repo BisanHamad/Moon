@@ -97,7 +97,7 @@ html
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
-    font-weight: 600px;
+    font-weight: 600;
     font-family: "Inter", sans-serif;
     color: var(--primaryColor);
 }
@@ -117,7 +117,7 @@ img
     .collection_section
     {
         font-size: 12px;
-        font-weight: 600px;
+        font-weight: 600;
     }
 }
 @media screen and (min-width: 390px) and (max-width: 401px) {
@@ -128,7 +128,7 @@ img
     .collection_section
     {
         font-size: 12px;
-        font-weight: 600px;
+        font-weight: 600;
     }
 }
 @media screen and (min-width: 402px) and (max-width: 834px) {
@@ -136,4 +136,61 @@ img
     {
         width: calc( (100% - 30px) / 2);
     }
+}
+.best_sellers_section
+{
+    text-align: center;
+    padding: 80px 0;
+}
+.best_sellers_section .row
+{
+    gap: 30px;
+}
+.best_sellers_section .item
+{
+    text-align: left;
+    width: calc( ( 100% - (3*30px) ) / 4 );
+}
+.best_sellers_section h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 48px;
+}
+.best_sellers_section .item-content
+{
+    margin-top: 24px;
+}
+.best_sellers_section h3
+{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: var(--primaryColor);
+}
+.best_sellers_section .price
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.best_sellers_section .description
+{
+    color: #807F86;
+    width: 80%;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+.best_sellers_section .add_to_cart
+{
+    padding: 15px 81px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
 }

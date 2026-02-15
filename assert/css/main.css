@@ -8,9 +8,17 @@ html
 {
     --primaryColor : #3A3845;
 }
+body
+{
+    font-family: var(--primaryColor);
+}
 .header
 {
     padding: 21.84px 0;
+}
+.header a:hover
+{
+    color: #f7cdad;
 }
 .container
 {
@@ -193,4 +201,38 @@ img
     font-size: 14px;
     font-weight: 600;
     width: 100%;
+    cursor: pointer;
+}
+.item:hover .add_to_cart
+{
+    background-color: #f7cdad;
+}
+@media screen and (min-width: 0) and (max-width: 389px)
+{
+    .best_sellers_section .item
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 390px) and (max-width: 401px)
+{
+    .best_sellers_section .item
+    {
+        width: calc( (100% - 30px) / 2 );
+    }
+}
+@media screen and (min-width: 402px) and (max-width: 834px)
+{
+    .best_sellers_section .item
+    {
+        width: calc( (100% - 60px) / 3 );
+    }
+    .best_sellers_section  h3
+    {
+        font-size: 14px;
+    }
+    .best_sellers_section .add_to_cart
+    {
+        padding: 15px 30px;
+    }
 }

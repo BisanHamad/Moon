@@ -22,7 +22,7 @@ body
 }
 .container
 {
-    width: calc( 100% - 330px );
+    width: calc( 100% - 30px );
     margin: 0 auto;
 }
 .row
@@ -98,29 +98,17 @@ img
     {
         flex-direction: column;
     }
-    h2
-    {
-        font-size: x-small;
-    }
 }
 @media screen and (min-width: 401px) and (max-width: 770px) {
     .collection
     {
         width: calc( (100% - 30px) / 2);
     }
-     h2
-    {
-        font-size: x-small;
-    }
 }
 @media screen and (min-width: 771px) and (max-width: 900px) {
     .collection
     {
         width: calc( (100% - 60px) / 3);
-    }
-     h2
-    {
-        font-size: x-small;
     }
 }
 .best_sellers_section
@@ -203,7 +191,7 @@ img
 {
     .best_sellers_section .item
     {
-        width: calc( (100% - 60px) / 3 );
+        width: calc( (100% - 60px) / 2 );
     }
     .best_sellers_section  h3
     {

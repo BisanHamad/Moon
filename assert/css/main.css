@@ -77,6 +77,7 @@ body
         margin: 0 auto;
     }
 }
+
 .collection_section
 {
     padding-top:80px;
@@ -138,9 +139,11 @@ img
     text-align: center;
     padding: 80px 0;
 }
-.best_sellers_section .row
+.best_sellers_section .sellers_container
 {
     gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(33px,1fr));
 }
 .best_sellers_section .item
 {

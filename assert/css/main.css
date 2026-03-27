@@ -25,7 +25,7 @@ body
 }
 .container
 {
-    width: calc( 100% - 30px );
+    width: calc( 100% - 330px );
     margin: 0 auto;
 }
 .row
@@ -71,6 +71,11 @@ body
     {
         display: flex;
     }
+    .container
+    {
+        width: calc( 100% - 30px );
+        margin: 0 auto;
+    }
 }
 .collection_section
 {
@@ -100,17 +105,32 @@ img
     {
         flex-direction: column;
     }
+    .container
+    {
+        width: calc( 100% - 30px );
+        margin: 0 auto;
+    }
 }
 @media screen and (min-width: 401px) and (max-width: 770px) {
     .collection
     {
         width: calc( (100% - 30px) / 2);
     }
+    .container
+    {
+        width: calc( 100% - 30px );
+        margin: 0 auto;
+    }
 }
 @media screen and (min-width: 771px) and (max-width: 900px) {
     .collection
     {
         width: calc( (100% - 60px) / 3);
+    }
+    .container
+    {
+        width: calc( 100% - 30px );
+        margin: 0 auto;
     }
 }
 .best_sellers_section
@@ -181,12 +201,22 @@ img
     {
         width: 100%;
     }
+    .container
+    {
+        width: calc( 100% - 30px );
+        margin: 0 auto;
+    }
 }
 @media screen and (min-width: 390px) and (max-width: 401px)
 {
     .best_sellers_section .item
     {
         width: calc( (100% - 30px) / 2 );
+    }
+    .container
+    {
+        width: calc( 100% - 30px );
+        margin: 0 auto;
     }
 }
 @media screen and (min-width: 402px) and (max-width: 834px)
@@ -202,5 +232,10 @@ img
     .best_sellers_section .add_to_cart
     {
         padding: 15px 30px;
+    }
+    .container
+    {
+        width: calc( 100% - 30px );
+        margin: 0 auto;
     }
 }

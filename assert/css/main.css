@@ -127,9 +127,19 @@ body {
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 770px) {}
+@media screen and (min-width: 401px) and (max-width: 770px) {
+    .hero-content {
+        width: 420px;
+        margin-left: 165px;
+    }
+}
 
-@media screen and (min-width: 771px) and (max-width: 900px) {}
+@media screen and (min-width: 771px) and (max-width: 900px) {
+    .hero-content {
+        width: 420px;
+        margin-left: 165px;
+    }
+}
 
 .collection_section {
     padding-top: 80px;
@@ -197,7 +207,7 @@ body {
     flex-wrap: wrap;
 }
 
-.Christmas_collection .container img {
+.img_Christmas_collection img {
     width: 100%;
 }
 
@@ -231,6 +241,18 @@ body {
     color: #000000;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 0) and (max-width: 400px) {
+    .Christmas {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 770px) {
+    .Christmas {
+        width: 100%;
+    }
 }
 
 .best_sellers_section {
@@ -298,4 +320,66 @@ body {
 
 .item:hover .add_to_cart {
     background-color: #f7cdad;
+}
+
+.craft_section .container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.craft_section .container .item {
+    width: 50%;
+    height: 348px;
+}
+
+.craft_section .container img {
+    width: 100%;
+}
+
+.craft_section .container .Our_History_info {
+    background-color: #F7F6F5;
+    padding-left: 78px;
+    padding-right: 78px;
+}
+
+.craft_section .container .Made_in_viet_Nam_info {
+    background-color: #F7F6F5;
+    padding-left: 78px;
+    padding-right: 78px;
+}
+.craft_section .container h2{
+    text-transform: uppercase;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    font-size: 28px;
+    font-family: "EB Garamond", serif;
+    letter-spacing: 4%;
+    font-weight: 100;
+}
+.craft_section .container p {
+    color: #585566;
+    padding-bottom: 32px;
+    font-size: 16px;
+}
+
+.craft_section .container a {
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.craft_section .container img
+{
+    width: 100%;
+}
+@media screen and (min-width: 0) and (max-width: 400px) {
+    .craft_section .container .item  {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 770px) {
+    .craft_section .container .item  {
+        width: 100%;
+    }
 }

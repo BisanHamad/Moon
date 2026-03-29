@@ -446,3 +446,78 @@ body {
     width: 100%;
     cursor: pointer;
 }
+
+.Our_blog_section {
+    font-family: "Inter", sans-serif;
+}
+.Our_blog_section h2{
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 48px;
+    font-weight: 100;
+
+}
+.Our_blog_section .container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_Our_blog img {
+    width: 100%;
+}
+
+.info_Our_blog{
+    background-color: #F7F6F5;
+    padding-left: 78px;
+    padding-right: 78px;
+}
+
+.Our_blog {
+    width: 50%;
+}
+.Our_blog_section .container h3 {
+    text-transform: uppercase;
+    padding-top: 64px;
+    font-size: 18px;
+    font-family: "EB Garamond", serif;
+    letter-spacing: 4%;
+    font-weight: 100;
+    color: #807f86;
+}
+
+.Our_blog_section .container h2 {
+    text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 28px;
+    font-family: "EB Garamond", serif;
+    letter-spacing: 4%;
+    font-weight: 100;
+}
+
+
+.Our_blog_section .info_Our_blog p {
+    color: #585566;
+    padding-bottom: 32px;
+    font-size: 16px;
+}
+
+.Our_blog_section .info_Our_blog a {
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 0) and (max-width: 400px) {
+    .Our_blog {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 770px) {
+    .Our_blog {
+        width: 100%;
+    }
+}

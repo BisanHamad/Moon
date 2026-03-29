@@ -550,7 +550,7 @@ body {
     border-right: none;
     border-left: none;
     border-bottom-color: #595667;
-    background-color: white;
+    background-color: #ffffff;
     margin-bottom: 32px;
 }
 .sign_up_section .sign_up{
@@ -561,4 +561,78 @@ body {
     font-weight: 600;
     cursor: pointer;
     margin-bottom: 80px;
+}
+.footer
+{
+    background-color: #3a3845;
+}
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .container  .moon{
+    width: 30%;
+}
+.footer .container  .moon_body{
+    width: 70%;
+}
+.footer  .moon .logo{
+    padding-top: 48px;
+    padding-bottom: 24px;
+    padding-left: 80px;
+    width: 100%;
+}
+.footer  .moon p{
+    color: #ffffff;
+    font-size: 14px;
+    padding-bottom: 32px;
+    padding-left: 80px;
+}
+.footer  .moon .btn_get_start{
+    padding: 16px 18px;
+    background-color: #3a3845;
+    border-color: #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 102px;
+    font-size: 12px;
+    margin-left: 80px;
+}
+.footer .moon_body{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 160px;
+    gap: 72px;
+}
+.footer .moon_body  h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 58px;
+    padding-bottom: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+.footer .moon_body  ul{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    list-style-type: none;
+}
+.footer .moon_body li{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.footer_link
+{
+    background-color: #3a3845;
+    text-align: center;
+}
+.footer_link a
+{
+    text-decoration: none;
+    color: #818087;
+    padding-top: 24px 0px;
+    text-align: center;
 }

@@ -521,3 +521,44 @@ body {
         width: 100%;
     }
 }
+.sign_up_section
+{
+    text-align: center;
+}
+.sign_up_section h2{
+    padding-top: 80px;
+    padding-bottom: 24px;
+    font-size: 18px;
+    color: #595667;
+}
+.sign_up_section p{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: "EB Garamond", serif;
+    letter-spacing: 4%;
+}
+.sign_up_section a{
+    color: #595667;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.sign_up_section .email{
+    padding: 14px 30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #595667;
+    background-color: white;
+    margin-bottom: 32px;
+}
+.sign_up_section .sign_up{
+    text-transform: uppercase;
+    padding: 15px 24px;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
